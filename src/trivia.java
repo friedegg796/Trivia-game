@@ -19,7 +19,7 @@ public class trivia {
             System.out.println("You have " + point + " point(s)");
         }
         Scanner scanner2 = new Scanner(System.in);
-        System.out.println("BRAIN TIME, WHO MADE MC?\n A: NOTCH \n B: JEB \n C: BANANA");
+        System.out.println("BRAIN TIME, WHAT IS A HDD IN A PC USUALLY\n A: HARDDRIVE \n B: HARDMANGER \n C: BANANA");
         reading1 = scanner2.nextLine();
 
         if (Objects.equals(reading1, "A")) {
